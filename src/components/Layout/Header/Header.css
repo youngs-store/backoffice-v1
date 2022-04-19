@@ -1,0 +1,10 @@
+
+/* header common css */
+.fixed--header__left {position: fixed; top:0; left: 0; z-index: 998; width: 200px; height: 100vh; border-right: 1px solid #f3f3f3; background-color: #fff;}
+.fixed--header__wrap { padding: 20px; display: flex; align-items: center; justify-content: center;}
+.fixed--header__wrap .btn--menu {opacity: 1!important; visibility: visible;position: fixed; top: 13px; left: 18px; z-index: 999;font-size: 25px;color: #b3b3b3;}
+.fixed--header__wrap .logo img {width: 45px;}
+
+/* active */
+.fixed--header__left.active {left: -200px; visibility: hidden; transition: all 0.3s ease;}
+.fixed--header__left { opacity: 1; visibility: visible; transition: all 0.3s ease;}
